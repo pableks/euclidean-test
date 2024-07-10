@@ -40,10 +40,10 @@ const INSTRUMENTS: { [key: string]: new () => InstrumentType } = {
 const Track: React.FC<TrackProps> = ({ 
   trackId, 
   onSettingsChange, 
-  isPlaying, 
+
   currentStep,
-  bpm,
-  noteDuration
+  
+  
 }) => {
   const [steps, setSteps] = useState(16);
   const [pulses, setPulses] = useState(4);
